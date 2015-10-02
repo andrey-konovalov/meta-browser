@@ -16,6 +16,10 @@ SRC_URI += "\
         ${@bb.utils.contains('PACKAGECONFIG', 'ignore-lost-context', 'file://0001-Remove-accelerated-Canvas-support-from-blacklist.patch', '', d)} \
 "
 
+OZONE_WAYLAND_EXTRA_PATCHES += " \
+        ${@bb.utils.contains('TARGET_ARCH', 'arm', 'file://chromium-wayland/0001-Fix-media-includes-for-ozone-builds.patch', '', d)} \
+"
+
 LIC_FILES_CHKSUM = "file://LICENSE;md5=0fca02217a5d49a14dfe2d11837bb34d"
 SRC_URI[md5sum] = "0534981cc21efcd11e64b67b85854420"
 SRC_URI[sha256sum] = "4ca4e2adb340b3fb4d502266ad7d6bda45fa3519906dbf63cce11a63f680dbc8"
