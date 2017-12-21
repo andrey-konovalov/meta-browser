@@ -1,8 +1,8 @@
 SRC_URI = "https://tmp.igalia.com/chromium-tarballs/chromium-ozone-wayland-dev-${PV}.tar.xz"
 S = "${WORKDIR}/chromium-ozone-wayland-dev-${PV}"
 
-SRC_URI[md5sum] = "1015ec7534923178edb61502b4d4ec34"
-SRC_URI[sha256sum] = "9b5098ab9989a0d0df975f74ed7e65bd922fac593c74de9887450643047756c6"
+SRC_URI[md5sum] = "15bb89b0465406f514ed64ad9c0aa95c"
+SRC_URI[sha256sum] = "129bf333af591417ede9d1f5fb34aba923f00b5a87b417c7deb4f9afe83f7195"
 
 LIC_FILES_CHKSUM = "\
     file://${S}/LICENSE;md5=0fca02217a5d49a14dfe2d11837bb34d \
@@ -48,7 +48,7 @@ LIC_FILES_CHKSUM = "\
     file://${S}/third_party/apple_apsl/LICENSE;md5=c8c14a9f985552dba8d3edbd76660088 \
     file://${S}/third_party/apple_sample_code/LICENSE;md5=d4c6eafcba87d49fffb4620359f7fe01 \
     file://${S}/third_party/ashmem/LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57 \
-    file://${S}/third_party/boringssl/src/LICENSE;md5=7707289753aa39daf59ecd93d0164faf \
+    file://${S}/third_party/boringssl/src/LICENSE;md5=4b1ad67f3a4b5a2346e6616c1268b0fb \
     file://${S}/third_party/brotli/LICENSE;md5=941ee9cd1609382f946352712a319b4b \
     file://${S}/third_party/bspatch/LICENSE;md5=3e837ede9697ce4c789c3ca32aabe003 \
     file://${S}/third_party/cacheinvalidation/src/google/cacheinvalidation/COPYING;md5=3b83ef96387f14655fc854ddc3c6bd57 \
@@ -63,13 +63,13 @@ LIC_FILES_CHKSUM = "\
     file://${S}/third_party/dom_distiller_js/LICENSE;md5=1399a5b89c7ed8167d261770432511e8 \
     file://${S}/third_party/errorprone/LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57 \
     file://${S}/third_party/expat/files/COPYING;md5=5b8620d98e49772d95fc1d291c26aa79 \
-    file://${S}/third_party/ffmpeg/CREDITS.chromium;md5=cf41b19a4171fd9fb94480fcbf1f99f2 \
+    file://${S}/third_party/ffmpeg/CREDITS.chromium;md5=d26a0653073e1d98c9bf58a1beddc1df \
     file://${S}/third_party/fips181/COPYING;md5=da26b18c1a03a3cae0abccae554029c6 \
     file://${S}/third_party/flac/COPYING.Xiph;md5=a2c4b71c0198682376d483eb5bcc9197 \
     file://${S}/third_party/flatbuffers/LICENSE;md5=a873c5645c184d51e0f9b34e1d7cf559 \
     file://${S}/third_party/flot/LICENSE.txt;md5=fe1ea2158d814e4fc7227c8c6ccd7ab3 \
     file://${S}/third_party/fontconfig/src/COPYING;md5=7a0449e9bc5370402a94c00204beca3d \
-    file://${S}/third_party/freetype/src/docs/FTL.TXT;md5=13b25413274c9b3b09b63e4028216ff4 \
+    file://${S}/third_party/freetype/src/docs/FTL.TXT;md5=9f37b4e6afa3fef9dba8932b16bd3f97 \
     file://${S}/third_party/gestures/LICENSE;md5=8a978a7211275297a3d816117be58ebf \
     file://${S}/third_party/gif_player/LICENSE;md5=86d3f3a95c324c9479bd8986968f4327 \
     file://${S}/third_party/glslang/LICENSE;md5=ce523927d7bcd789d6c3af579d03ad73 \
