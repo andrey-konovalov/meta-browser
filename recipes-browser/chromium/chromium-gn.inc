@@ -9,7 +9,6 @@ OUTPUT_DIR = "out/Release"
 B = "${S}/${OUTPUT_DIR}"
 
 SRC_URI += " \
-        file://v8-qemu-wrapper.patch \
         file://wrapper-extra-flags.patch \
 "
 
