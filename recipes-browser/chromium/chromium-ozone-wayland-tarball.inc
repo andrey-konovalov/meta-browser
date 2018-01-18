@@ -1,8 +1,8 @@
 SRC_URI = "https://tmp.igalia.com/chromium-tarballs/chromium-ozone-wayland-dev-${PV}.tar.xz"
 S = "${WORKDIR}/chromium-ozone-wayland-dev-${PV}"
 
-SRC_URI[md5sum] = "15bb89b0465406f514ed64ad9c0aa95c"
-SRC_URI[sha256sum] = "129bf333af591417ede9d1f5fb34aba923f00b5a87b417c7deb4f9afe83f7195"
+SRC_URI[md5sum] = "24161a4f9470dbfcf9ff45f40464c7b6"
+SRC_URI[sha256sum] = "f0421bbced9340cbf0b5de21c4974fed67c7f736e4d6d8685668a702854344df"
 
 LIC_FILES_CHKSUM = "\
     file://${S}/LICENSE;md5=0fca02217a5d49a14dfe2d11837bb34d \
